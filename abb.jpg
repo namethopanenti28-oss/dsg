@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bajaj Lighting</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #0288d1;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .logo {
+      display: block;
+      margin: 20px auto;
+      width: 150px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .about {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .about h2 {
+      text-align: center;
+      color: #0288d1;
+    }
+
+    .about p {
+      line-height: 1.6;
+      font-size: 16px;
+      text-align: justify;
+    }
+
+    .products {
+      max-width: 900px;
+      margin: 30px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .product-card {
+      background-color: white;
+      border-radius: 8px;
+      padding: 15px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: scale(1.05);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    .back-btn {
+      display: block;
+      width: 200px;
+      margin: 30px auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #0288d1;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+
+    .back-btn:hover {
+      background-color: #026fa1;
+    }
+  </style>
+</head>
+<body>
+
+  <header>Bajaj Lighting</header>
+
+  <!-- Company Logo -->
+  <img src="bajaj.jpg" alt="Bajaj Logo" class="logo">
+
+  <!-- About the Company -->
+  <div class="about">
+    <h2>About Bajaj</h2>
+    <p>
+      Bajaj Electricals Limited is one of India’s most trusted and long‑established lighting solution providers, with a rich legacy that spans more than eight decades. Founded in 1938 and headquartered in Mumbai, it is part of the prestigious Bajaj Group and has earned a strong reputation for quality, innovation, and performance in the electrical and lighting industries.</p>
+
+<p>Under the Lighting Solutions business, Bajaj Electricals offers a comprehensive range of modern and energy-efficient illumination products, serving both consumer and professional lighting needs. Its portfolio includes advanced LED lamps, panels, battens, commercial luminaires, outdoor and street lighting solutions, as well as specialised installations for industrial, architectural, and infrastructural projects. The company’s lighting solutions are designed to deliver optimal brightness, energy savings, and long service life, making them suitable for homes, offices, factories, public spaces, and outdoor environments alike.</p>
+
+<p>Bajaj’s lighting expertise extends beyond products: it provides end‑to‑end solutions, including supply, installation, commissioning, and testing, ensuring efficient and reliable illumination systems for diverse applications. With a vast network that includes branch offices, distributors, and retail outlets across India, Bajaj Electricals continues to strengthen its presence in the lighting sector and remains a preferred choice for customers seeking innovation, sustainability, and dependable performance.
+    </p>
+  </div>
+
+  <!-- Products / Pictures -->
+  <div class="products">
+    <div class="product-card">
+      <img src="b.jpg" alt="Product 1">
+      <p>LED Bulbs</p>
+    </div>
+
+    <div class="product-card">
+      <img src="b1.jpg" alt="Product 3">
+      <p>Street Lights</p>
+    </div>
+
+    <div class="product-card">
+      <img src="b2.jpg" alt="Product 4">
+      <p>Decorative Lamps</p>
+    </div>
+     
+     <div class="product-card">
+      <img src="b3.jpg" alt="Product 4">
+      <p>Flood Light and manymore</p>
+    </div>
+  
+  </div>
+
+  <a href="https://namethopanenti28-oss.github.io/lights/" class="back-btn">⬅ Back to Brands</a>
+
+</body>
+</html>
+

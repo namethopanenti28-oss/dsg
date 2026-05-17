@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Channel Partners</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Brand Buttons</title>
 
   <style>
     body {
@@ -20,44 +20,39 @@
 
     .partners h2 {
       font-size: 36px;
-      margin-bottom: 10px;
+      margin-bottom: 40px;
       color: #fff;
-    }
-
-    .partners p {
-      color: #fff;
-      max-width: 700px;
-      margin: 0 auto 40px;
-      font-size: 18px;
-      opacity: 0.9;
     }
 
     .partners-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       gap: 30px;
-      max-width: 1200px;
-      margin: auto;
     }
 
-    /* 🔥 NO WHITE CARDS */
+    /* BUTTON ADAPTS TO IMAGE SIZE */
     .partner-card {
-      text-decoration: none;
-      border-radius: 12px;
-      padding: 30px;
-      background: transparent;
-      border: 2px solid rgba(255,255,255,0.4);
-      display: flex;
+      display: inline-flex;
       align-items: center;
       justify-content: center;
-      transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+      padding: 15px;
+      border-radius: 14px;
+      border: 2px solid rgba(255,255,255,0.4);
+      background: transparent;
+      text-decoration: none;
+      width: fit-content;
+      height: fit-content;
+      transition: 0.3s ease;
     }
 
     .partner-card img {
-      max-width: 150px;
-      max-height: 80px;
+      display: block;
+      width: auto;
+      height: auto;
+      max-width: 220px;
+      max-height: 120px;
       object-fit: contain;
-      filter: brightness(1.2);
     }
 
     .partner-card:hover {
@@ -70,17 +65,29 @@
 
 <body>
 
-  <section class="partners">
-    <h2>Brands We Offer</h2>
+<section class="partners">
+  <h2>Brands We Offer</h2>
 
-    <div class="partners-grid">
-      <a href="https://new.abb.com/" target="_blank" class="partner-card"><img src="abb.jpg" alt="ABB"></a>
-      <a href="https://www.panasonic.com/in/" target="_blank" class="partner-card"><img src="anchorpanasonic.jpg" alt="Anchor"></a>
-      <a href="https://bentecindia.com/" target="_blank" class="partner-card"><img src="bentechbenlo.jpg" alt="Bentech"></a>
-      <a href="https://www.salzerindia.com/" target="_blank" class="partner-card"><img src="salzer.jpg" alt="Salzer"></a>
-    </div>
-  </section>
+  <div class="partners-grid">
+
+    <a href="https://new.abb.com/" target="_blank" class="partner-card">
+      <img src="abb.jpg" alt="ABB">
+    </a>
+
+    <a href="https://www.panasonic.com/in/" target="_blank" class="partner-card">
+      <img src="anchorpanasonic.jpg" alt="Anchor Panasonic">
+    </a>
+
+    <a href="https://bentecindia.com/" target="_blank" class="partner-card">
+      <img src="bentechbenlo.jpg" alt="Bentech">
+    </a>
+
+    <a href="https://www.salzerindia.com/" target="_blank" class="partner-card">
+      <img src="salzer.jpg" alt="Salzer">
+    </a>
+
+  </div>
+</section>
 
 </body>
 </html>
-
